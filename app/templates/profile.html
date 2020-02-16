@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block main %}
+		<div class="profile">
+			<div class="top">
+			<br> 
+			<center>
+			<div>
+				<img src="{{url_for('static', filename='photo.jpg')}}">
+			</div>	
+					<p class="edit">
+					<strong class="name"> Monique McIntyre </strong><br>
+					 @mmcintyre<br>
+					 Montego Bay, Jamaica<br>
+					 {{ joined }}
+					</p>
+			 </center>	
+			</div>
+			<div class="info">
+				<p class="text"> I am smart and talented  young woman who loves website design and development. Contact me if you'd like to work together on a new project.</p>
+				
+				
+				<table cellspacing="8";>
+					<tr>
+						<td class="bold"> 7 </td>
+						<td class="bold"> 100 </td>
+						<td class="bold"> 250 </td>
+					</tr>
+					
+					<tr>
+						<td class="font"> Posts </td>
+						<td class="font"> Following </td>
+						<td class="font"> Followers </td>
+					</tr>
+				</table>
+				
+				<center> <button> Follow </button> </center> 
+			</div>
+		</div>
+{% endblock %}

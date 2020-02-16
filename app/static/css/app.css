@@ -1,3 +1,85 @@
 body {
     padding-top: 5rem;
 }
+
+.profile{
+				
+		height: 450px;
+		width: 370px;
+		margin: 0 auto;
+		display: block;
+		border: 1px solid #6960ec;
+		border-radius: 15px;
+			}
+			
+.top {
+    	background-color:#6960ec ;
+    	height: 260px;
+    	width: 370px;
+    	margin: 0 auto;
+    	display: block;
+    	border-radius: 15px 15px 0px 0px;
+					
+	}
+.info {
+		background-color:white;
+		height: 190px;
+		width: 370px;
+		margin: 0 auto;
+		display: block;
+		border-radius:0px 0px 15px 15px;
+					position: fixed;
+					
+			}
+			
+p.text{
+        font-family: Arial, Helvetica, sans-serif;
+		color: grey;
+		font-size: 15px;
+		text-align: justify;
+		text-justify: inter-word;
+		margin-left: 20px; 
+		margin-right: 20px;
+}
+			
+table{
+    	font-family: Arial, Helvetica, sans-serif;
+		margin-left: 80px;
+		text-align:center;
+				
+}
+			
+.font {
+    	font-family: Arial, Helvetica, sans-serif;
+		color: grey;	
+					
+}
+			
+.bold {
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+}
+			
+button{
+		background-color: #6495ed;
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		border-radius: 8px;
+		height: 35px;
+		width: 20%;
+	}
+img{
+    	height: 120px;
+		width: 120px;
+		border-radius: 50%;
+					
+			}
+			
+.edit{
+		font-family: Arial, Helvetica, sans-serif;
+		color: white;	
+			}
+			
+.name {
+		font-size:25px;
+			}
